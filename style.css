@@ -81,11 +81,11 @@ section {
     font-size: 23px;
     font-weight: 550;
     color:rgb(241, 233, 243);
-    padding-top: 120px;
+    padding-top: 110px;
     padding-left: 60px;
     padding-right: 150px;
     padding-bottom: 40px;
-    line-height: 28px;
+    line-height: 30px;
     letter-spacing: 1.2px;
 }
 
@@ -94,7 +94,7 @@ section {
 }
 
 .form-container {
-    height: 350px;
+    height: 370px;
     background-color: rgba(41, 82, 117, 0.569);
     color:rgb(232, 232, 147);
 }
@@ -114,7 +114,7 @@ form ul {
     padding-left: 60px;
     width: 700px;
     column-gap: 60px;
-    row-gap: 30px;
+    row-gap: 35px;
     margin-top: 30px;
 }
 
@@ -144,11 +144,11 @@ input:focus {
     outline: none;
 }
 
-input:focus:valid {
+.valid:focus:valid {
     border: 2px solid rgb(96, 188, 96);
 }
 
-input:valid {
+.valid:valid {
     border: 2px solid rgb(96, 188, 96);
 }
 
@@ -189,4 +189,36 @@ form .btn-div{
 section .space {
     margin-left: auto;
     margin-right: 5px;
+}
+
+.btn-div div {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color:rgb(241, 233, 243);
+    margin-top: 15px;
+}
+
+.btn-div div a{
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(233, 184, 116);
+}
+
+.password-li, .confirm-li {
+    position: relative;
+}
+
+.invalid-pw, .invalid-confirm-pw {
+    position: absolute;
+    top: 55px;
+    font-size: 15px;
+    min-width: 280px;
+}
+
+.confirm-pw {
+    border: 2px solid rgb(220, 76, 76);
+}
+
+ul li .confirm-valid {
+    border: 2px solid rgb(96, 188, 96);
 }

@@ -33,31 +33,34 @@
                 <ul>
                     <li>
                         <label for="first-name">FIRST NAME</label>
-                        <input type="text" id="first-name" name="first-name" maxlength="27" required>
+                        <input type="text" id="first-name" name="first-name" maxlength="27" class="valid" required>
                     </li>
                     <li>
                         <label for="last-name">LAST NAME</label>
-                        <input type="text" id="last-name" name="last-name" maxlength="27" required>
+                        <input type="text" id="last-name" name="last-name" maxlength="27" class="valid" required>
                     </li>
                     <li>
                         <label for="email">EMAIL</label>
-                        <input type="email" id="email" name="email" required>
+                        <input type="email" id="email" name="email" class="valid" required>
                     </li>
                     <li>
                         <label for="phone">PHONE NUMBER</label>
-                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="ex:383-298-9347" required>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="ex:383-298-9347" class="valid" required>
                     </li>
-                    <li>
+                    <li class="password-li">
                         <label for="password">PASSWORD</label>
-                        <input type="password" name="password" required>
+                        <input type="password" id="password" name="password" minlength="8" class="valid" required>
+                        <div class="invalid-pw"></div>
                     </li>
-                    <li>
+                    <li class="confirm-li">
                         <label for="confirm-pw">CONFIRM PASSWORD</label>
-                        <input type="password" id="confirm-pw" name="confirm-pw" required>
+                        <input type="password" id="confirm-pw" minlength="8" name="confirm-pw" class="confirm-pw" required>
+                        <div class="invalid-confirm-pw"></div>
                     </li>
                 </ul>
                 <div class="btn-div">
-                    <button type="submit">Create Account</button>
+                    <button type="button" class="submitBtn">Create Account</button>
+                    <div>Already have an account? <a href="index.html">Log in</a></div>
                 </div>
             </form>
         </div>
