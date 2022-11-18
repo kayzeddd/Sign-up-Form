@@ -1,0 +1,192 @@
+@font-face {
+    font-family: "Norse-Bold";
+    src: url(fonts/Norse-Bold\ .otf);
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    min-height: 600px;
+    border: 0px;
+    margin: 0px;
+}
+
+header {
+    height: 100vh;
+    width: 35vw;
+    min-width: 330px;
+    background-image: url("./images/astronaut.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.name-logo-container {
+    position: relative;
+    top: 20vh;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 55, 0, 0.478);
+    column-gap: 30px;
+}
+
+.name-logo-container img {
+    height: 120px;
+    width: auto;
+
+}
+
+.name-logo-container .name {
+    font-size: 90px;
+    font-family: "Norse-Bold";
+
+}
+
+.img-credit {
+    margin-top: auto;
+    margin-bottom: 0px;
+    text-align: center;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.img-credit a {
+    color: aliceblue;
+}
+
+section {
+    display:flex;
+    flex-direction: column;
+    width: 65vw;
+    min-width:1000px;
+    background-image: url("images/stars.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    
+}
+
+.quote-container {
+    display:flex;
+    flex-direction: column;
+    max-height: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 23px;
+    font-weight: 550;
+    color:rgb(241, 233, 243);
+    padding-top: 120px;
+    padding-left: 60px;
+    padding-right: 150px;
+    padding-bottom: 40px;
+    line-height: 28px;
+    letter-spacing: 1.2px;
+}
+
+.quote-two {
+    margin-top: 20px;
+}
+
+.form-container {
+    height: 350px;
+    background-color: rgba(41, 82, 117, 0.569);
+    color:rgb(232, 232, 147);
+}
+
+.quote-three {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: 550;
+    padding-left: 60px;
+    padding-top: 25px;
+}
+
+form ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto ;
+    padding-left: 60px;
+    width: 700px;
+    column-gap: 60px;
+    row-gap: 30px;
+    margin-top: 30px;
+}
+
+form ul li {
+    display: flex; 
+    flex-direction: column;
+    font-family:'Courier New', Courier, monospace;
+    min-width: 320px;
+}
+
+form ul li label {
+    font-size: 18px;
+}
+
+form ul li input {
+    margin-top: 4px;
+    border-radius: 15px;
+    font-size: 18px;
+    font-family:'Courier New', Courier, monospace;
+    padding: 2px 10px;
+    background-color: rgba(34, 33, 33, 0.754);
+    color: rgb(237, 140, 20);
+    border: 2px solid black;
+}
+
+input:focus {
+    outline: none;
+}
+
+input:focus:valid {
+    border: 2px solid rgb(96, 188, 96);
+}
+
+input:valid {
+    border: 2px solid rgb(96, 188, 96);
+}
+
+input:invalid:required {
+    border: 2px solid rgb(220, 76, 76);
+}
+
+li #phone::placeholder {
+    color: rgb(173, 170, 170);
+}
+
+form .btn-div{
+    position: relative;
+    top:  100px;
+    padding-left:60px;
+}
+
+.btn-div button{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 8px 25px;
+    border-radius: 10px;
+    border: 3px solid black;
+    background-color: rgb(211, 148, 60);
+    color:rgb(0, 0, 0);
+    cursor:pointer;
+}
+
+.btn-div button:hover {
+    border: 3px solid rgb(223, 227, 230);
+}
+
+.btn-div button:active {
+    transform: translateY(2px);
+}
+
+section .space {
+    margin-left: auto;
+    margin-right: 5px;
+}

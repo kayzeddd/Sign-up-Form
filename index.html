@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up Form</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="name-logo-container">
+            <img src="images/planet-svgrepo-com.svg" alt="XPLOR logo">
+            <div class="name">XPLOR</div>
+        </div>
+        <div class="img-credit">Art by 
+            <a href="https://pixabay.com/users/pizar_kestrap-12044322/">Pizar Almaulidina</a> on
+            <a href="https://pixabay.com/">Pixabay</a>
+        </div>
+    </header>
+    <section>
+        <div class="quote-container">
+            <div class="quote-one">
+                Lorem ipsum dolor sit amet. Est molestias maxime ab corporis quisquam eos possimus galisum ex laborum voluptatem. Id laboriosam consequatur eos omnis consectetur hic eligendi dolores est quisquam veniam et aliquam temporibus!
+            </div>
+            <div class="quote-two">
+                Qui nihil blanditiis et animi
+            </div>
+        </div>
+        <div class="form-container">
+            <div class="quote-three">Let's do this!</div>
+            <form action="" method="post">
+                <ul>
+                    <li>
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" id="first-name" name="first-name" maxlength="27" required>
+                    </li>
+                    <li>
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" id="last-name" name="last-name" maxlength="27" required>
+                    </li>
+                    <li>
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email" required>
+                    </li>
+                    <li>
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="ex:383-298-9347" required>
+                    </li>
+                    <li>
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password" required>
+                    </li>
+                    <li>
+                        <label for="confirm-pw">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirm-pw" name="confirm-pw" required>
+                    </li>
+                </ul>
+                <div class="btn-div">
+                    <button type="submit">Create Account</button>
+                </div>
+            </form>
+        </div>
+        <div class="img-credit space">Picture by 
+            <a href="https://pixabay.com/users/hans-2/">@Hans</a> on
+            <a href="https://pixabay.com/">Pixabay</a>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
