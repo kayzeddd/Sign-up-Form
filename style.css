@@ -15,7 +15,7 @@ body {
 header {
     height: 100vh;
     width: 35vw;
-    min-width: 330px;
+    min-width: 380px;
     background-image: url("./images/astronaut.jpg");
     background-size: cover;
     background-position: 50% 50%;
@@ -43,7 +43,7 @@ header {
 }
 
 .name-logo-container .name {
-    font-size: 90px;
+    font-size: 110px;
     font-family: "Norse-Bold";
 
 }
