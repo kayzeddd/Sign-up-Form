@@ -18,7 +18,7 @@ header {
     min-width: 330px;
     background-image: url("./images/astronaut.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: 50% 50%;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -78,15 +78,15 @@ section {
     flex-direction: column;
     max-height: 200px;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 23px;
+    font-size: 25px;
     font-weight: 550;
     color:rgb(241, 233, 243);
     padding-top: 110px;
     padding-left: 60px;
     padding-right: 150px;
     padding-bottom: 40px;
-    line-height: 30px;
-    letter-spacing: 1.2px;
+    line-height: 33px;
+    letter-spacing: 1.5px;
 }
 
 .quote-two {
@@ -193,7 +193,7 @@ section .space {
 
 .btn-div div {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 18px;
+    font-size: 17px;
     color:rgb(241, 233, 243);
     margin-top: 15px;
 }
