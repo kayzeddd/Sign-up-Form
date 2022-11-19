@@ -22,8 +22,7 @@ confirm_pw.addEventListener("focusout", check_confirm_pw);
 function check_confirm_pw() {
     if (confirm_pw.value !== password.value){
         invalidText2.textContent = "* the passwords do not match";
-        password.value = "";
-        confirm_pw.value ="";
+        confirm_pw.value = "";  
     }
     if (confirm_pw.value === password.value) {
         invalidText2.textContent = "";
